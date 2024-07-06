@@ -1,13 +1,13 @@
 # OblEnergoGrafic
 OblEnergoGrafic - bot for tg, which takes a picture from the site and sends it to you in tg using the /file command  
-# config.py
+### config.py
 TOKEN = 'YourToken'  
-# url
+### url
 url = "your url"  
-# path
+### path
 save_path = r"C:\Users\q2pj\OneDrive\Desktop"  
 file_path = r'C:\Users\q2pj\OneDrive\Desktop\grafik0.png'  
-# TG
+### TG
 send name, ID  
 dispatcher.add_handler(CommandHandler("start", start))  
 send grafik0.png  
